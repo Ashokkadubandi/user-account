@@ -5,6 +5,7 @@ specifiers:
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^13.5.0
   js-cookie: ^3.0.5
+  pnpm: '5'
   react: ^18.3.1
   react-dom: ^18.3.1
   react-router-dom: ^5.3.4
@@ -16,6 +17,7 @@ dependencies:
   '@testing-library/react': 13.4.0_react-dom@18.3.1+react@18.3.1
   '@testing-library/user-event': 13.5.0
   js-cookie: 3.0.5
+  pnpm: 5.18.10
   react: 18.3.1
   react-dom: 18.3.1_react@18.3.1
   react-router-dom: 5.3.4_react@18.3.1
@@ -7811,6 +7813,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 3.0.0
+    dev: false
+
+  /pnpm/5.18.10:
+    resolution: {integrity: sha512-M3oH42XqtUZv0Hnfp4A1klTFQT3/9ghBkDrPHh0GTd9nP39I14/GDjN+BiHx95hH60CigOip+oK/h389GhizeQ==}
+    engines: {node: '>=10.16'}
+    hasBin: true
     dev: false
 
   /possible-typed-array-names/1.0.0:
